@@ -1,0 +1,21 @@
+# clock pin for Basys2 Board
+NET "in_clk" LOC = "B8"; # Bank = 0, Signal name = MCLK
+
+# Pin assignment for LEDs
+NET "out_main_red" LOC = "G1" ; # Bank = 3, Signal name = LD7
+NET "out_main_yellow" LOC = "P4" ; # Bank = 2, Signal name = LD6
+NET "out_main_green" LOC = "N4" ;  # Bank = 2, Signal name = LD5
+
+NET "out_main_walk" LOC = "N5" ;
+NET "out_side_walk" LOC = "P6" ;
+
+NET "out_side_red" LOC = "P7" ;
+NET "out_side_yellow" LOC = "M11" ;
+NET "out_side_green" LOC = "M5" ;
+
+# Pin assignment for SWs
+NET "in_sensor_main" LOC = "N3";  # Bank = 2, Signal name = SW7
+
+# Pin assignment for BTNs
+NET "in_main_walk" LOC = "A7";
+NET "in_side_walk" LOC = "G12";
