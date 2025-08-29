@@ -1,0 +1,18 @@
+# clock pin for Basys2 Board
+NET "clk" LOC = "B8"; # Bank = 0, Signal name = MCLK
+
+# Pin assignment for LEDs
+NET "lc" LOC = "G1" ; # Bank = 3, Signal name = LD7
+NET "lb" LOC = "P4" ; # Bank = 2, Signal name = LD6
+NET "la" LOC = "N4" ;  # Bank = 2, Signal name = LD5
+
+NET "ra" LOC = "P7" ; # Bank = 3, Signal name = LD2
+NET "rb" LOC = "M11" ; # Bank = 2, Signal name = LD1
+NET "rc" LOC = "M5" ;  # Bank = 2, Signal name = LD0
+
+# Pin assignment for SWs
+NET "lts" LOC = "N3";  # Bank = 2, Signal name = SW7
+NET "rts" LOC = "E2";  # Bank = 3, Signal name = SW6
+NET "haz" LOC = "P11";  # Bank = 2, Signal name = SW0
+
+NET "err" LOC = "P6";
